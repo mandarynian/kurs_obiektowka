@@ -8,9 +8,9 @@ namespace ObliczaniePojemnosciSkokowejSilnika.Cylinders
 {
     internal class Cylinder
     {
-       
         private double d;
         private double s;
+
         public Cylinder(double d, double s)
         {
             this.d = d;
@@ -21,7 +21,5 @@ namespace ObliczaniePojemnosciSkokowejSilnika.Cylinders
         { 
             return Math.PI / 4 * Math.Pow(d, 2) * s;
         }
-
-
     }
 }
