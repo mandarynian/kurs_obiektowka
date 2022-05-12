@@ -1,4 +1,5 @@
 ﻿using System;
+using ObliczaniePojemnosciSkokowejSilnika.Engines;
 
 namespace ObliczaniePojemnosciSkokowejSilnika
 {
@@ -6,7 +7,9 @@ namespace ObliczaniePojemnosciSkokowejSilnika
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Engine nazwijjajakchcesz =new Engine("silniksubaru",5);           
+            double objetosc=nazwijjajakchcesz.GetEngineVolume();
+            Console.WriteLine(objetosc);
         }
     }
 }
