@@ -12,10 +12,13 @@ namespace ObliczaniePojemnosciSkokowejSilnika.Engines
 
         public List<Cylinder> Cylinders { get; set; }
 
+        private int cylindersCount;
 
-        public Engine(string name)
+
+        public Engine(string name, int cylindersCount)
         {
             Name = name;
+            this.cylindersCount = cylindersCount;
         }
 
         public double GetEngineVolume()
