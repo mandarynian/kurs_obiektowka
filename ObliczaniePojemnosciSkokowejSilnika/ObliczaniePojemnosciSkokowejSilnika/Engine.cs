@@ -18,5 +18,10 @@ namespace ObliczaniePojemnosciSkokowejSilnika.Engines
             Name = name;
         }
 
+        public double GetEngineVolume()
+        {
+            return 0;
+        }
+
     }
 }
