@@ -9,9 +9,8 @@ namespace ObliczaniePojemnosciSkokowejSilnika.Engines
     public class Engine
     {
         public string Name { get; set; }
-
-        public List<Cylinder> Cylinders { get; set; }
-
+        
+        private List<Cylinder> Cylinders { get; set; }
         private int cylindersCount;
 
 
